@@ -51,7 +51,11 @@ python molecular-regression/zinc_full.py root=/path/to/data/root
 For running RRWP set `rrwp=yes` in yaml file. For running Signet positional encoding set `signet_pe=yes` in yaml file.
 
 ## CLRS
-For running the CLRS code for Dijkstra algorithm run the following command
+For running the CLRS code for an algorithm `algo_name` run the following command
+```bash
+python -m clrs_code.examples.run --algorithms algo_name
+```
+For example running for Dijkstra algorithm run the following command
 ```bash
 python -m clrs_code.examples.run --algorithms dijkstra
 ```
