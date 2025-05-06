@@ -1,4 +1,4 @@
-# Signet + Edge Transformers
+# Signet + Edge Transformer
 
 Code for our CS768 Learning with Graphs project. 
 
@@ -49,3 +49,9 @@ To run the ZINC-Full dataset, run
 python molecular-regression/zinc_full.py root=/path/to/data/root
 ```
 For running RRWP set `rrwp=yes` in yaml file. For running Signet positional encoding set `signet_pe=yes` in yaml file.
+
+## CLRS
+For running the CLRS code for Dijkstra algorithm run the following command
+```bash
+python -m clrs_code.examples.run --algorithms dijkstra
+```
